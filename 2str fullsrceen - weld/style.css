@@ -4,7 +4,7 @@
     font-family: tahoma, Arial;
 }
 header {
-    background: url('tlo.jpg') center;
+    background: url('tlo1.jpg') center;
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -16,7 +16,7 @@ header {
 
 h1, h2 {
     text-align: center;
-    color: #ddd;
+    color: white;
 }
 
 h1 {
