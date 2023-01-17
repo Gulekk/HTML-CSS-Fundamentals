@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon</title>
+    
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }  
+
+      body {
+        height: 100vh;
+        background-color: black;
+        display: flex;
+
+      }
+
+      button {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+
+      }
+
+      ul {
+        margin: auto;
+
+      }
+
+      li {
+        color: yellow;
+        display: inline-block;
+        font-size: 40px;
+        font-family: cursive;
+        font-weight: bold;
+        letter-spacing: 4px;
+        text-shadow: 0 0 10px white, 0 0 10px yellow;
+        transition: opacity 0.5s;
+      }
+
+      li:nth-child(3) {
+        transform: rotate(15deg) translateY(5px);
+        animation: neon 2s infinite linear;
+      }
+
+      .off {
+        opacity: 0;
+      }
+
+      @keyframes neon {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+      }
+
+    </style>
+</head>
+<body>
+    <button>Wyłącz</button>
+    <ul>
+        <li>W</li>
+        <li>E</li>
+        <li>B</li>
+        <li>G</li>
+        <li>u</li>
+        <li>l</li>
+        <li>e</li>
+        <li>k</li>
+        <li>k</li>
+        <li>.</li>
+        <li>p</li>
+        <li>l</li>
+    </ul>
+
+    <script>
+        var button = 
+        document.querySelector("button");
+        button.addEventListener("click", function()
+             {
+                if (this.textContent == "Włącz") {
+                    this.textContent = "Wyłącz";    
+                }
+                    else {
+                        this.textContent = "Włącz";
+                    }
+                    const letters = document.querySelectorAll("li");
+                    for(var i = 0; letters.length > i; i++) {
+                        letters[i].classList.toggle("off");
+                    }
+                    
+                    })
+            
+    </script>
+    
+</body>
+</html>
