@@ -9,4 +9,5 @@
 ![GulekkWeld_VersionSmartphone](https://user-images.githubusercontent.com/31259850/213555069-f5dd1e43-d300-47a3-a10c-c1aae95d35fd.PNG)
 5. Spin Circle - Animation Rotate!
 ![Spin_Circle](https://user-images.githubusercontent.com/31259850/213555220-f70cae97-dfde-45fe-bb6e-845bb23b857b.PNG)
-
+6. Animation_Newpulpit_CSS
+![Animation_Newpulpit_CSS](https://user-images.githubusercontent.com/31259850/213555415-7de0da5f-0bea-4714-bae3-ea6b03efb5a2.PNG)
