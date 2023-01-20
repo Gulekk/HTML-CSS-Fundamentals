@@ -11,7 +11,7 @@
 
 ![neon](https://user-images.githubusercontent.com/31259850/213554963-2b7709c3-3871-408e-a9a1-04c98b246da0.PNG)
 
-4.GulekkWeld version smartphone.
+4.GulekkWeld Version Smartphone.
 
 ![GulekkWeld_VersionSmartphone](https://user-images.githubusercontent.com/31259850/213555069-f5dd1e43-d300-47a3-a10c-c1aae95d35fd.PNG)
 
